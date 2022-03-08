@@ -30,7 +30,7 @@ export default class CreateTask extends Component {
       <form onSubmit={this.handleSubmit}>
         <input
           type="text"
-          placeholder="Enter task"
+          placeholder="Please enter task"
           value={this.state.task}
           onChange={this.handleChange}
           autoFocus
